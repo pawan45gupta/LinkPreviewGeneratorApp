@@ -2,13 +2,13 @@
 
 Start Commands:
 
-npm i
+npm install
 
 npm run start
 
-Cd server
+cd server
 
-npm i
+npm install
 
 npm run dev:server
 
