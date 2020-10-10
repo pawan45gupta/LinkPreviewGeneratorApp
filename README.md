@@ -18,3 +18,4 @@ We have used boiler plate for create-react-app and used node express server to h
 
 1. get-urls : NPM package to parse the urls from textbox
 2. link-preview-generator: NPM package to get the website details
+3. react-bootstrap: Used bootstrap for UI components
