@@ -9,14 +9,11 @@ app.use(bodyParser.json());
 
 app.post('/getPreviewData', async function (req, res) {
   const previewData = [];
-  req.body.map(url => {
-    }
-  );
   for(var i= 0; i < req.body.length; i++) {
-   const res = await linkPreviewGenerator(
+   const data = await linkPreviewGenerator(
       req.body[i]
     )
-    previewData.push(res);
+    previewData.push(data);
   }
   res.send(JSON.stringify(previewData));
 });
